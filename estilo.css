@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: darkcyan;
     margin: 0;
     padding: 20px;
     background-image: url("turismo.png");
@@ -16,7 +15,16 @@ body {
 .form-container{
     max-width: 700px;
      margin: auto;
-     background-color: black;
+     background-color: rgba(0, 0, 0, 0.5);
+     padding: 30px;
+     border-radius: 15px;
+     box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
+}
+
+.container{
+    max-width: 700px;
+     margin: auto;
+     background-color: rgba(0, 0, 0, 0.5);
      padding: 30px;
      border-radius: 15px;
      box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
@@ -64,7 +72,12 @@ input[type="file"]{
 
 .radio-ground,
 .checkbox-group{
-    margin: 10px 0;
+     max-width: 700px;
+     margin: auto;
+
+     padding: 30px;
+     border-radius: 15px;
+     box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
 }
 
 .form-container label,
@@ -100,8 +113,8 @@ button:hover{
 input:focus,
 select:focus,
 textarea:focus{
-border-color: #003366;
-outline: none;
+    border-color: #003366;
+    outline: none;
 }
 
 input:invalid{
